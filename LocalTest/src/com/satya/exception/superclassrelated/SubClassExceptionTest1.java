@@ -22,7 +22,7 @@ class A1  {
 	
 	//  throwing  the file not found exception  
 	void add() throws  FileNotFoundException{
-		
+		System.out.println("------");
 	}
 }
 
@@ -30,7 +30,7 @@ class B1 extends  A1  {
 	
 	//  cannot throw it's parent exception  
 	@Override
-	void add() throws  IOException{
+	void add() throws IOException{
 		
 	}
 }
