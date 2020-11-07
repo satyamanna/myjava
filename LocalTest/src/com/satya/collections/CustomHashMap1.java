@@ -10,6 +10,7 @@ public class CustomHashMap1<K,V> {
 	transient static int DEFAULT_SIZE = 16 ;
 	
 	public CustomHashMap1(){
+		
 		bucket =  new Entry[DEFAULT_SIZE];
 	}
 	
